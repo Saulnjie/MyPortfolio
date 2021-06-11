@@ -13,26 +13,43 @@ body {
 .main-title {
     font-size: 36px;
     font-weight: 600;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 100px 0;
 }
 
 .sub-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
+}
+.my-page-head-title {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 100px 0 20px 0;
 }
 
 .hero-paragraph {
     font-size: 16px;
     font-weight: 200;
     padding: 20px 0 20px 0;
+    width: 50%;
+}
+
+.about-me-content-container {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.about-me-paragraph {
+    padding: 20px 0 20px 0;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 
 .button {
     background-color: blueviolet;
     padding: 12px 16px;
-    border-radius: var(--border-radius);
+    border-radius: 2px;
     border: none;
     color: white;
     cursor: pointer;
@@ -49,16 +66,15 @@ body {
 
 .my-page-card {
     margin: 20px 0 20px 0;
-    background-color: cadetblue;
-    border: 1px solid white;
+    background-color: rgba(21, 23, 34, 0.568);
+    /* border: 1px solid white; */
     display: flex;
     justify-content: space-evenly;
-
+    border-radius: 2px;
 }
 
 .my-page-info {
     /* width: 40%; */
- 
 }
 
 .my-page-image {
@@ -75,12 +91,14 @@ body {
 .my-page-info-container {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .read-more-button {
     background-color: blueviolet;
     padding: 12px 16px;
-    border-radius: var(--border-radius);
+    border-radius: 2px;
     border: none;
     color: white;
     cursor: pointer;
@@ -89,6 +107,20 @@ body {
     width: 150px;
     margin-top: 15px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    width: 100%;
+}
+
+.active-nav-title {
+    border-bottom: white solid 2px;
+    margin-bottom: -2px;
+  }
 
 .footer-content {
     display: flex;
