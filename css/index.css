@@ -35,7 +35,7 @@ body {
 
 .about-me-content-container {
   display: flex;
-  padding: 100px 0 100px 0;
+  padding: 0px 0 100px 0;
 }
 
 .about-me-image-container img {
@@ -44,8 +44,7 @@ body {
 }
 
 .about-me-paragraph {
-  padding: 20px 0 20px 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
 }
 
