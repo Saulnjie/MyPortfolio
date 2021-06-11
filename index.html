@@ -64,6 +64,50 @@
       </main>
       <footer>
         <div class="footer-content">
+          
+          <div class="contact-container-left"><h2 class="contact-subtitle">
+            For any questions or inquiries, please do not hesitate to contact
+            me through social media or by email.
+          </h2></div>
+
+          <form class="contact-container-right">
+            <label for="name">Name</label>
+            <input
+              type="name"
+              placeholder="Enter your name here"
+              id="name"
+              name="name"
+              required
+              pattern="[A-z]{5,}"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your Email here"
+              id="email"
+              name="email"
+              required
+            />
+            <label for="text">Subject</label>
+            <input
+              type="text"
+              placeholder="Enter your Subject here"
+              id="text"
+              name="text"
+              required
+              pattern="[A-z]{15,}"
+            />
+            <label for="text">Message</label>
+            <textarea
+              type="text"
+              placeholder="Enter your Message here"
+              id="text"
+              name="text"
+              required
+              pattern="[A-z]{25,}"
+            ></textarea>
+            <button type="submit" class="button">Submit</button>
+          </form>
         </div>
       </footer>
       </div>
