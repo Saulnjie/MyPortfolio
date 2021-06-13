@@ -201,6 +201,14 @@ body {
 .hero-paragraph {
   display: none;
 }
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+.hero-container-right {
+  width: 50%;
+  margin-top: 50px;
+}
 
 .my-page-image {
   display: none;
