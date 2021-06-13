@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/index.css" />
-    <title>Document</title>
+    <script
+        src="https://kit.fontawesome.com/91d0eac963.js"
+        crossorigin="anonymous"
+      ></script>
+    <title>DevSaul - My portfolio</title>
   </head>
-  <body>
+  <body id="home">
     <div class="container">
       <header>
         <nav>
           <ul class="nav">
-            <h1 class="main-title">DevSaul</h1>
-            <li class="active-nav-title">
-              <a href="#">Home</a>
+            <a href="#home"><h1 class="main-title">DevSaul</h1></a>
+            <li>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#about">Contact</a>
             </li>
           </ul>
         </nav>
@@ -42,16 +46,17 @@
               with? That is what I do. My name is DevSaul, and I make your
               website as you invisioned it.
             </p>
-
-            <button class="button">I am in need of a website</button>
-            <button class="button">I am looking to hire</button>
+            <a href="#about">
+            <button class="button">I am in need of a website</button></a>
+            <a href="#about">
+            <button class="button">I am looking to hire</button></a>
           </div>
           <div class="hero-container-right">
-            <img src="/img/meg.jpg" alt="Me" />
+            <!-- <img src="/img/dottedoutline.jfif" alt="Me" /> -->
           </div>
         </div>
 
-        <h2 class="my-page-head-title">My first year projects</h2>
+        <h2 class="my-page-head-title" id="projects">My first year projects</h2>
         <div class="content-container">
           <div class="my-page-card">
             <div class="my-page-info-container">
@@ -103,31 +108,39 @@
               <img src="/img/image 2.jpg" alt="Ett kvarter til Marka" />
             </div>
           </div>
-          <h2 class="my-page-head-title">About me</h2>
+          <h2 class="about-me-head-title">About me</h2>
           <div class="about-me-content-container">
             <div class="about-me-paragraph">
-              My name is Saul Njie. I'm a Oslo based Front-End-Development
+              My name is Saul Njie. I'm a 29 year old Oslo based Front-End-Development
               student currently studying at campus Noroff Oslo. I love beeing
               creative, work out projects and to solve problems, this is why I
               make websites! The languages used it my pages are currently HTML,
               CSS and JavaScript. This will advance to React within the next
-              year. My work-idiology is: Keep the users clicking!
+              year. My work-idiology is: Keep on clicking the good fight!
             </div>
           </div>
         </div>
       </main>
-      <footer>
+      <footer id="about">
         <div class="footer-content">
           <div class="contact-container-left">
             <div class="about-me-image-container">
-              <img src="/img/blackoutline.jfif" alt="Picture of me - Saul" />
+              <img src="/img/meg.jpg" alt="Picture of me - Saul" />
             </div>
           </div>
-          <form class="contact-container-right">
+          <div class="contact-container-right">
             <h2 class="contact-subtitle">
               For any questions or inquiries, please do not hesitate to contact
               me through social media or by email.
             </h2>
+          <div class="contact-info-container">
+          <p class="contact-info"><i class="fas fa-envelope"></i> Saulus92@gmail.com</p>
+          <p class="contact-info"><i class="fas fa-phone-alt"></i> +47 906 11 305</p>
+          <a href="https://www.instagram.com/saulsays/">
+          <p class="contact-info"><i class="fab fa-instagram"></i> @saulsays</p></a>
+        </div>
+        </div>
+          <!-- <form class="contact-container-right">
             <label for="name">Name</label>
             <input
               type="name"
@@ -164,9 +177,11 @@
               pattern="[A-z]{25,}"
             ></textarea>
             <button type="submit" class="button">Submit</button>
-          </form>
+          </form> -->
         </div>
       </footer>
     </div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/index.js"></script>
 </html>
